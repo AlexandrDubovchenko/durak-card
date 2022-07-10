@@ -1,0 +1,17 @@
+.cardContainer {
+  width: 50px;
+}
+
+.cardContainer:hover {
+  width: 100px;
+  z-index: 2;
+}
+
+.cardContainer img {
+  position: relative;
+  width: 100px;
+}
+
+.fullWidth {
+  width: 100px
+}

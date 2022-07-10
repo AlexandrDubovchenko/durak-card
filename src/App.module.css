@@ -1,0 +1,35 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+}
+
+.cardSet {
+  display: flex;
+}
+
+.playground {
+  position: relative;
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 40px
+}
+
+.move {
+  position: relative;
+}
+
+.cardDefence {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.controls {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
